@@ -3,8 +3,9 @@
 A fully responsive landing page built as part of a Frontend Mentor challenge.
 
 ## 📸 Preview
-
-![Uploading Captura de tela 2026-06-18 115110.png…]()
+![Preview](./assets/preview-hero.png)
+![Preview](./assets/preview-about.png)
+![Preview](./assets/preview-testimonial.png)
 
 
 ## 🔗 Links
