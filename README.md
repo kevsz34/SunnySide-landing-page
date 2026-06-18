@@ -4,8 +4,8 @@ A fully responsive landing page built as part of a Frontend Mentor challenge.
 
 ## 📸 Preview
 
-![Project Preview](<img width="1442" height="880" alt="Captura de tela 2026-06-18 115110" src="https://github.com/user-attachments/assets/2d82fc30-9177-419b-b226-454942abfda0" />
-)
+![Uploading Captura de tela 2026-06-18 115110.png…]()
+
 
 ## 🔗 Links
 
