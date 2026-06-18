@@ -34,7 +34,6 @@
     display: none;
 }
 body{
-    justify-content: center;
     font-family: 'Barlow', system-ui, -apple-system, 'Segoe UI', sans-serif;
     min-height: 100dvh;
 }

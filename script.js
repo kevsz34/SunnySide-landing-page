@@ -5,7 +5,7 @@ if(menuBtn && menuNav){
 menuBtn.addEventListener("click", show);
 
 function show(){
-   menuBtn.setAttribute('aria-expanded', 'true');
+   menuBtn.toggleAttribute('aria-expanded', 'true');
    menuNav.classList.toggle("flex");
 }
 }
