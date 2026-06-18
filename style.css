@@ -54,7 +54,7 @@ header img{
 button img{
     width: 100%;
 }
-#menu-btn{
+.menu-btn{
     background: transparent;
     width: 50px;
     border: none;
@@ -93,21 +93,16 @@ ul{
     color: var(--grey-550);
     text-decoration: none;
 }
-header button{
-    width: 50%;
+#contact-btn{
     align-self: center;
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
     border-radius: 2rem;
     font-family:'Fraunces', system-ui, -apple-system, 'Segoe UI', sans-serif;
-    
+    font-size: 15px;
     font-weight: 800;
     color: var(--grey-950);
     border: none;
     background-color: var(--yellow-500);
-}
-header button a{
-    font-size: 15px;
-    color: var(--grey-950);
     text-decoration: none;
 }
 #hero-sect{
@@ -393,6 +388,7 @@ footer ul{
 }
 @media(min-width: 1024px){
         header{
+            padding: 2rem 3rem;
             width: 100%;
             justify-content: space-between;
         }
@@ -405,6 +401,7 @@ footer ul{
         background-color: transparent;
     }
     header nav ul{
+        gap: 3rem;
         color: var(--white);
         align-items: center;
         flex-direction: row;
@@ -413,17 +410,15 @@ footer ul{
         font-size: 18px;
         color: var(--white);
     }
-    header button{
+    #contact-btn{
         background-color: var(--white);
         padding: 1rem 2rem; 
     }
-    header button:hover{
+    #contact-btn:hover{
         background-color: #ffffff4a;
-    }
-    header button:hover a{
         color: var(--white);
     }
-    #menu-btn{
+    .menu-btn{
         display: none;
     }
     #menu-arrow{
@@ -438,7 +433,7 @@ footer ul{
     justify-content: center;
     gap: 4rem;
     width: 100%;
-    height: 100dvh;
+    height: 90dvh;
     background: url(images/desktop/image-header.jpg) bottom no-repeat;
     background-size: 100% 100%;
 }
@@ -446,6 +441,13 @@ footer ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr
+}
+.about-card-brand h2, .about-card-metode h2, .about-design h2, .about-photo h2{
+    font-weight: 900;
+    font-size: 40px;
+}
+.about-card-brand p, .about-card-metode p, .about-design p, .about-photo p{
+    font-size: 18px;
 }
 .about-image1{
     grid-column: 2;
@@ -455,9 +457,19 @@ footer ul{
    display: block;
 }
 .about-card-brand{
-    padding: 0rem 25%;
+    justify-self: center;
+    padding: 0;
+    max-width: 500px;
+    width: 100%;
     align-items: center;
     grid-row: 1;
+}
+.about-card-brand h2, .about-card-metode h2{
+    min-width: 500px;
+}
+.about-card-brand p{ 
+    text-align: left;
+    width: 430px;
 }
 .learnM{
     align-self: flex-start;
@@ -467,21 +479,38 @@ footer ul{
     grid-row: 2;
 }
 .about-card-metode{
-    text-align: left;
-    padding: 0rem 25%;
+    justify-self: center;
+    padding: 0;
+    max-width: 500px;
+    width: 100%;
     align-items: center;
-    
     grid-row: 2;
+}
+.about-card-metode p{
+        text-align: left;
+    width: 450px;
 }
 .about-design{
     background: url(images/desktop/image-graphic-design.jpg) center no-repeat;
     background-size: cover;
     grid-row: 3;
 }
+.about-design h2{
+    font-size: 28px;
+}
+.about-design p{
+    font-size: 1rem;
+}
 .about-photo{
     background: url(images/desktop/image-photography.jpg) center no-repeat;
     background-size: cover;
     grid-row: 3;
+}
+.about-photo h2{
+    font-size: 28px;
+}
+.about-photo p{
+    font-size: 1rem;
 }
 #testimonial-sect{
     padding: 6rem;

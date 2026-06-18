@@ -1,7 +1,11 @@
-const menuBtn = document.getElementById("menu-btn");
-const menuNav = document.getElementById("menu-nav");
+const menuBtn = document.querySelector(".menu-btn");
+const menuNav = document.querySelector(".menu-nav");
+
+if(menuBtn && menuNav){
 menuBtn.addEventListener("click", show);
 
 function show(){
+   menuBtn.setAttribute('aria-expanded', 'true');
    menuNav.classList.toggle("flex");
+}
 }
